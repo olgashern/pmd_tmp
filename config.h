@@ -1,0 +1,26 @@
+#ifndef RSS_SUPPORT
+#define RSS_SUPPORT 1
+#endif /* RSS_SUPPORT */
+
+#ifndef SEND_RAW_WR_SUPPORT
+#define SEND_RAW_WR_SUPPORT 1
+#endif /* SEND_RAW_WR_SUPPORT */
+
+#ifndef HAVE_STRUCT_RTE_PKTMBUF
+#define HAVE_STRUCT_RTE_PKTMBUF 1
+#endif /* HAVE_STRUCT_RTE_PKTMBUF */
+
+/* HAVE_MTU_GET is not defined. */
+
+#ifndef HAVE_MTU_SET
+#define HAVE_MTU_SET 1
+#endif /* HAVE_MTU_SET */
+
+#ifndef HAVE_FC_CONF_AUTONEG
+#define HAVE_FC_CONF_AUTONEG 1
+#endif /* HAVE_FC_CONF_AUTONEG */
+
+#ifndef HAVE_FLOW_CTRL_GET
+#define HAVE_FLOW_CTRL_GET 1
+#endif /* HAVE_FLOW_CTRL_GET */
+
